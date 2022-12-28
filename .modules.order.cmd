@@ -1,1 +1,0 @@
-cmd_/home/qiang/development/driver/task_inspector/modules.order := {   echo /home/qiang/development/driver/task_inspector/task_inspector.ko; :; } | awk '!x[$$0]++' - > /home/qiang/development/driver/task_inspector/modules.order

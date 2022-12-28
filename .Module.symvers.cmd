@@ -1,1 +1,0 @@
-cmd_/home/qiang/development/driver/task_inspector/Module.symvers := sed 's/ko$$/o/' /home/qiang/development/driver/task_inspector/modules.order | scripts/mod/modpost -m -a  -o /home/qiang/development/driver/task_inspector/Module.symvers -e -i Module.symvers   -T -
