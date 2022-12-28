@@ -1,0 +1,1 @@
+cmd_/home/qiang/development/driver/task_inspector/task_inspector.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o /home/qiang/development/driver/task_inspector/task_inspector.ko /home/qiang/development/driver/task_inspector/task_inspector.o /home/qiang/development/driver/task_inspector/task_inspector.mod.o;  true

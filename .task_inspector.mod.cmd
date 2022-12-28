@@ -1,0 +1,1 @@
+cmd_/home/qiang/development/driver/task_inspector/task_inspector.mod := printf '%s\n'   task_inspector.o | awk '!x[$$0]++ { print("/home/qiang/development/driver/task_inspector/"$$0) }' > /home/qiang/development/driver/task_inspector/task_inspector.mod

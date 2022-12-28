@@ -1,7 +1,7 @@
 KDIR ?= /usr/src/linux
 
 # Set FNAME_C to the kernel module name source filename (without .c)
-FNAME_C := dummy_misc
+FNAME_C := task_inspector
 
 PWD            := $(shell pwd)
 obj-m          += ${FNAME_C}.o
